@@ -3,9 +3,9 @@
 <p>Equipe:</p>
 <br>
 <ul>
-	<li>Guilherme Luiz Garcia Lefrançois  -  029181030</li>
+	<li>Guilherme Luiz Garcia Lefrançois - 029181030</li>
 	<br>
-	<li>Claudio Rubens Silva Evangelista Brito  -  029180007</li>
+	<li>Claudio Rubens Silva Evangelista Brito - 029180007</li>
 	<br>
 </ul>
 <hr>
