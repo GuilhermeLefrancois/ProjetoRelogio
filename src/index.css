@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./background-verde-site.jpg);
+}
+
+header
+{
+  position: fixed;
+  top:0%;
+  right: 0%;
+  width: 100%;
+}
+
+#painelCronometro
+{
+  width: 31%;
+  height: 60%;
+  border-radius: 100%;
+  background-color: white;
+  border-color: indigo;
+  border-style: solid;
+  border-width: 2px;
+  position: absolute;
+  top: 20%;
+  left: 1em;
+
+}
+
+#painelTemporizador
+{
+  width:92%;
+  height: 60%;
+  border-radius: 100%;
+  background-color: white;
+  border-color: indigo;
+  border-style: solid;
+  border-width: 2px;
+  position: absolute;
+  top: 20%;
+  left: 1.5em;
+}
+
+#btn-crono
+{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 11em;
+  left: 6em;
+  border-radius: 100%;
+  border-color: indigo;
+  border-width: 2px;
+}
+
+#btn-temp
+{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 11em;
+  left: 6em;
+  border-radius: 100%;
+  border-color: indigo;
+  border-width: 2px
+}
+
+#btn-relogio
+{
+  width: 80%;
+  position: absolute;
+  left: 3.5em;
+  top: 1em;
+}
+
+#div-relogio
+{
+  background-color: white;
+  border-color: indigo;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+  padding-top: 10px;
+  width: 80%;
+  height: 80px;
+  position: relative;
+  margin-bottom: 5px;
+  left: 3.5em;
+  top: 4em;
+}
+
+#label-crono
+{
+  margin: 0px;
+  text-align: center;
+  position: relative;
+  top: 1em;
+  left: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#label-parcial
+{
+  color: white;
+  position: relative;
+  top: -20em;
+  left: -40em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contador-crono
+{
+  font-family: cursive;
+  position: relative;
+  top: 3.5em;
+  left: 0em;
+}
+
+#divCronometro
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 33.33%;
+    height: 100%;
+    background-image: url(./background-verde-site.jpg);
+}
+
+#divRelogio
+{
+    position: absolute;
+    top: 0px;
+    left: 33.33%;
+    width: 33.33%;
+    height: 100%;
+    border-right-color: white;
+    border-left-color: white;
+    border-right-width: 1.5px;
+    border-left-width: 1.5px;
+    border-left-style: solid;
+    border-right-style: solid;
+    background-image: url(./smooth-dark-blue-with-black-vignette-studio-bem-use-como-plano-de-fundo-relatorio-de-negocios-digital-modelo-de-site_1258-748.jpg);
+}
+
+#divTemporizador
+{
+    position: absolute;
+    top: 0px;
+    left: 66.66%;
+    width: 33.33%;
+    height: 100%;
+    background-image: url(./bg-04-e1476453911602.png);
+}
+
+code 
+{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
